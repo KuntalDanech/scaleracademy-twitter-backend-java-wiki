@@ -17,11 +17,11 @@ A twitter-like social media site where
 - OAuth2 based login and connection
 - Email notifications service
 - Report posts
-- User's can send personal messages to each other question
-- Allow accounts to be private (only visible to followers) question
-- Turn on notifications for a particular user question
-- Bookmarking posts question
-- Topics question
+- User's can send personal messages to each other 
+- Allow accounts to be private (only visible to followers) 
+- Turn on notifications for a particular user 
+- Bookmarking posts 
+- Topics 
 - Filtering keywords on hateful and abusive texts, eventually leading to permanent blocking
 - Trending Section with certain hashtags and topics based on tweets
 - _( Feel free to add your own wishlist, the Wikis are publicly editable )_
