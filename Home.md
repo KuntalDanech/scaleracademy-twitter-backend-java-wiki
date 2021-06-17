@@ -13,7 +13,7 @@ A twitter-like social media site where
 - Users and posts can be searched.
 
 ## Future Scope
-- Shifting to a microservices-based environment
+- Shifting to a microservices-based architecture
 - OAuth2 based login and connection
 - Email notifications service
 - Report posts
