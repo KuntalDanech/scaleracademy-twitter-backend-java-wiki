@@ -21,7 +21,7 @@ Un-follow the given user
 ### `GET` `/users/{userid}/followers`
 Get a list of all followers of this user
 
-### `GET` `/users/{userid}/followees`
+### `GET` `/users/{userid}/followings`
 Get a list of all following of this user
 
 
