@@ -59,7 +59,7 @@ We love your input! We want to make contributing to this project as easy and tra
         - `MYSQL_DB_HOST` will be your MySQL or MariaDB **host**. Like `localhost` or `127.0.0.1` or `0.0.0.0`
         - `MYSQL_DB_PORT` will be the **port** at which your database server resides. Like `3306`
         - `MYSQL_DB_UNAME` will be the **username** for your database. Like `root`
-        - `GCP_MYSQL_DB_PASSWD` will be the **password** for accessing the database. Like `root123`
+        - `MYSQL_DB_PASSWD` will be the **password** for accessing the database. Like `root123`
 - After this right-click on the project and select Run As **Maven Build**
 - Under **goals** write **`clean verify`** and Run the Build. _This produces an executable JAR under the `target` folder_
 - After a Successful Build. Run the application by Right-Clicking on the project and clicking on Run as *Spring Boot App*
