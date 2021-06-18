@@ -1,5 +1,5 @@
 # Welcome to the `twitter-backend` developer wiki!
-This is an incubating project undertaken by [@ohbus](https://github.com/championswimmer), inspired by [@championswimmer](https://github.com/championswimmer)'s a discussion from [here](https://twitter.com/championswimmer/status/1403193048360652800)
+This is an incubating project undertaken by [@ohbus](https://github.com/ohbus), inspired by [@championswimmer](https://github.com/championswimmer)'s a discussion from [here](https://twitter.com/championswimmer/status/1403193048360652800)
 
 Application is intended to be developed parallelly side by side to [this](https://github.com/scaleracademy/open-source-projects/discussions/81) discussion by [Scaler](https://discord.gg/8x9vUbMCJb)
 
