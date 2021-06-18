@@ -72,7 +72,7 @@ We love your input! We want to make contributing to this project as easy and tra
 ### Additional Notes
 
 * Code should be properly commented to ensure its readability.
-* If you've added code that should be tested, add tests as comments.
+* If you've added code that should be tested, add tests with JUnit.
 * Make sure your code properly formatted.
 * Issue that pull request!
 * Your code should pass the automated CI pipeline Tests before making it into the codebase.
