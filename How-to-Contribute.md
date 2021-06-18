@@ -25,7 +25,7 @@ We love your input! We want to make contributing to this project as easy and tra
     ```
 * Add an upstream link to the main branch in your cloned repo
     ```
-    git remote add upstream https://github.com/ohbus/twitter-backend.git
+    git remote add upstream https://github.com/scaleracademy/twitter-backend.git
     ```
 * Keep your cloned repo up to date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
     ```
@@ -49,11 +49,11 @@ We love your input! We want to make contributing to this project as easy and tra
 
 > - You can always use your favourite IDE like [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [VS Code](https://code.visualstudio.com/)
 > - Please check that the [JAVA_HOME](https://docs.oracle.com/cd/E19182-01/821-0917/inst_jdk_javahome_t/index.html) enviornment variable is setup using [JDK 11](https://adoptopenjdk.net/) to ensure optimal results.
-- Import the project into your Workspace as an Existing Maven Project.
-- Go to the file called [application-dev.properties](https://github.com/ohbus/twitter-backend/blob/master/src/main/resources/application-dev.properties) under [`src/main/resources`](https://github.com/ohbus/twitter-backend/blob/master/src/main/resources)
+- Import the project into your Workspace as an **Existing Maven Project.**
+- Go to the file called [application-dev.properties](https://github.com/scaleracademy/twitter-backend/blob/master/src/main/resources/application-dev.properties) under [`src/main/resources`](https://github.com/scaleracademy/twitter-backend/blob/master/src/main/resources)
 - Here you will find four environment variable namely
-    - **`MYSQL_DB_HOST`** and **`MYSQL_DB_PORT`** at [Line 37](https://github.com/ohbus/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L37)
-    - **`MYSQL_DB_UNAME`** and **`MYSQL_DB_PASSWD`** at [Line 40](https://github.com/ohbus/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L40) and [41](https://github.com/ohbus/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L41) respectively.
+    - **`MYSQL_DB_HOST`** and **`MYSQL_DB_PORT`** at [Line 37](https://github.com/scaleracademy/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L37)
+    - **`MYSQL_DB_UNAME`** and **`MYSQL_DB_PASSWD`** at [Line 40](https://github.com/scaleracademy/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L40) and [41](https://github.com/scaleracademy/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L41) respectively.
     - You can either set these environment variables under your Maven Build and SpringBoot run OR
     - You can also **remove** these and enter the following in place of the environment variables
         - `MYSQL_DB_HOST` will be your MySQL or MariaDB **host**. Like `localhost` or `127.0.0.1` or `0.0.0.0`
@@ -64,8 +64,8 @@ We love your input! We want to make contributing to this project as easy and tra
 - Under **goals** write **`clean verify`** and Run the Build. _This produces an executable JAR under the `target` folder_
 - After a Successful Build. Run the application by Right-Clicking on the project and clicking on Run as *Spring Boot App*
 - You can access the application under **port 8080**
-- If you want to change the port on which the application is running. Please make the changes in [application.properties](https://github.com/ohbus/retail-banking/blob/master/src/main/resources/application.properties) at Line [41](https://github.com/ohbus/retail-banking/blob/ff51f236a05dbd5e8cdfdbb406ef35550987a5e1/src/main/resources/application.properties#L41) and uncomment the line and enter your desired port.
-- If you are still facing any difficulties Please raise an [Issue](https://github.com/ohbus/retail-banking/issues/new/choose) or reach out to [me](https://subho.xyz/site/en/contact.html).
+- If you want to change the port on which the application is running. Please make the changes in [application-dev.properties](https://github.com/scaleracademy/twitter-backend/blob/master/src/main/resources/application-dev.properties) at Line [73](https://github.com/scaleracademy/twitter-backend-java/blob/c4f41995e75b1a0f9d3ab1b2d0c41eb313c1b3b6/src/main/resources/application-dev.properties#L73) and uncomment the line and enter your desired port.
+- If you are still facing any difficulties Please raise an [Issue](https://github.com/scaleracademy/twitter-backend-java/issues/new/choose) or reach out to [me](https://subho.xyz/site/en/contact.html).
 - If you feel the documentation needs an update. Please send a Pull Request to update the same.
 
 
@@ -95,4 +95,4 @@ When you are creating an issue, make sure it's not already present. Furthermore,
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under its  [AGPL-3.0 License](https://github.com/ohbus/twitter-backend/blob/master/LICENSE).
+By contributing, you agree that your contributions will be licensed under its  [AGPL-3.0 License](https://github.com/scaleracademy/twitter-backend/blob/master/LICENSE).
