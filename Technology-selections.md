@@ -1,6 +1,6 @@
 - The Project uses Java 11
 - We are using Spring Boot with Maven to build it
 - Logging with SLF4J API and Logback implementation
-- Continuous integration is done using GitHub Actions, Circle CI is using for static analysis on Pull Requests
+- Continuous integration is done using GitHub Actions, Circle CI is used for static analysis on Pull Requests
 - Lombok is used to reduce boilerplate, but the annotation set we use is limited
 - SonarCloud is used for static analysis
