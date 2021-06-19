@@ -16,7 +16,7 @@ We love your input! We want to make contributing to this project as easy and tra
 ### Making a Pull Request
 
 > - Make sure you have been assigned the issue to which you are making a PR.
-> - If you make PR before being assigned, It will be labeled `invalid` and closed without merging.
+> - If you make PR before being assigned, It will be labeled [`invalid`](https://github.com/scaleracademy/twitter-backend-java/pulls?q=is%3Aopen+is%3Apr+label%3Ainvalid) and closed without merging.
 
 * Fork the repo and clone it on your machine.
     ```
