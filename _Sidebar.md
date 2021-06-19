@@ -26,7 +26,7 @@
 
 14. **Reviewing pull requests**
 
-15. **Static analysis**
+[15. **Static analysis**](https://github.com/scaleracademy/twitter-backend-java/wiki/Static-Analysis)
 
 16. **Roadmap**
 
