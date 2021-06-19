@@ -41,7 +41,7 @@ Get a list of all following of this user
 
 
 
-## Posts Related APIs
+## Post Related APIs
 
 ### `GET` `/posts` 📃 
 Get list of all posts
@@ -63,7 +63,7 @@ Un-like the given post
 
 
 
-## Hashtags Related APIs
+## Hashtag Related APIs
 
 ### `GET` `/hashtags` 📃 
 Top hashtags (default top 10)
