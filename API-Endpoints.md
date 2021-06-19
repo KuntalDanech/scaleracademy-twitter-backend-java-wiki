@@ -53,7 +53,7 @@ Get Details of a post
 Create a new post
 
 ### `DELETE` `/post/{postid}` 🔒 
-Delete a given post id
+Delete a given post
 
 ### `PUT` `/post/{postid}/like` 🔒 
 Like the given post
