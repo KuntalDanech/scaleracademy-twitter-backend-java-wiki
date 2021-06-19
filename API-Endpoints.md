@@ -1,3 +1,9 @@
+## Key
+
+### 🔒: API is secured with JWT
+
+### 📃: API is Paginated
+
 ## User Related APIs
 
 ### `GET` `/users/@{username}`
@@ -9,49 +15,49 @@ Get details of given user by userid
 ### `POST` `/users`
 Create a new user
 
-### `PATCH` `/users/{userid}`
+### `PATCH` `/users/{userid}` 🔒 
 Update bio/name/image etc of an user
 
-### `PUT` `/users/{userid}/follow`
+### `PUT` `/users/{userid}/follow` 🔒 
 Follow the given user
 
-### `DELETE` `/users/{userid}/follow`
+### `DELETE` `/users/{userid}/follow` 🔒 
 Un-follow the given user
 
-### `GET` `/users/{userid}/followers`
+### `GET` `/users/{userid}/followers` 📃 
 Get a list of all followers of this user
 
-### `GET` `/users/{userid}/followings`
+### `GET` `/users/{userid}/followings` 📃 
 Get a list of all following of this user
 
 
 
 ## Posts Related APIs
 
-### `GET` `/posts`
+### `GET` `/posts` 📃 
 Get list of all posts
 
 ### `GET` `/posts/{postid}`
 Get Details of a post
 
-### `POST` `/posts`
+### `POST` `/posts` 🔒 
 Create a new post
 
-### `DELETE` `/posts/{postid}`
+### `DELETE` `/posts/{postid}` 🔒 
 Delete a given post id
 
-### `PUT` `/posts/{postid}/like`
+### `PUT` `/posts/{postid}/like` 🔒 
 Like the given post
 
-### `DELETE` `/posts/{postid}/like`
+### `DELETE` `/posts/{postid}/like` 🔒 
 Un-like the given post
 
 
 
 ## Hashtags Related APIs
 
-### `GET` `/hashtags`
+### `GET` `/hashtags` 📃 
 Top hashtags (default top 10)
 
-### `GET` `/hashtags/{tag}/posts`
+### `GET` `/hashtags/{tag}/posts` 📃 
 All posts of this given hashtag
