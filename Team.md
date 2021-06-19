@@ -3,7 +3,6 @@
 - [@championswimmer](https://github.com/championswimmer)
 
 
-## Past Maintainers
 
 ***
 
