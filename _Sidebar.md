@@ -1,6 +1,6 @@
 [01. **Home**](https://github.com/scaleracademy/twitter-backend/wiki)
 
-[02. **How to Contribute**](https://github.com/scaleracademy/twitter-backend/wiki/How-to-Contribute)
+[02. **How to Contribute**](https://github.com/scaleracademy/twitter-backend/wiki/How-to-Contribute) _(needs Splitting)_
 
 [03. **Entity Design**](https://github.com/scaleracademy/twitter-backend/wiki/Entity-Design)
 
