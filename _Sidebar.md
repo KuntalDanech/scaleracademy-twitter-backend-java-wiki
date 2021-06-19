@@ -10,7 +10,7 @@
 
 06. **Lombok Configuration**
 
-07. **Configuration**
+07. **Project Configuration**
 
 08. **IDE Instructions**
 
