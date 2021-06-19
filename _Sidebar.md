@@ -30,7 +30,7 @@
 
 16. **Roadmap**
 
-17. **Team**
+[17. **Team**](https://github.com/scaleracademy/twitter-backend-java/wiki/Team)
 
 18. **Known issues**
 
