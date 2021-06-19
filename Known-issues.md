@@ -1,0 +1,1 @@
+Here we can find known issues with this project and their possible solutions
