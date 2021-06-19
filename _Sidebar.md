@@ -8,7 +8,7 @@
 
 05. **Installation**
 
-06. **Lombok Configuration**
+[06. **Lombok Configuration**](https://github.com/scaleracademy/twitter-backend-java/wiki/Lombok-Configuration)
 
 07. **Project Configuration**
 
