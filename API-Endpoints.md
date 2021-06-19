@@ -24,7 +24,7 @@ Get details of given user by userid
 ### `POST` `/user`
 Create a new user
 
-### `PATCH` `/user/{userid}` 🔒 
+### `PATCH` `/user` 🔒 
 Update bio/name/image etc of an user
 
 ### `PUT` `/user/{userid}/follow` 🔒 
