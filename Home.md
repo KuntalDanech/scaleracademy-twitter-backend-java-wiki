@@ -24,7 +24,6 @@ A twitter-like social media site where
 - Topics 
 - Filtering keywords on hateful and abusive texts, eventually leading to permanent blocking
 - Trending Section with certain hashtags and topics based on tweets
-- Add caching support using Redis
 - _( Feel free to add your own wishlist, the Wikis are publicly editable )_
 
 ***
