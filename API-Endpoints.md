@@ -4,6 +4,15 @@
 
 ### 📃: API is Paginated
 
+
+
+## Authentication API
+
+### `POST` `/authenticate`
+Authenticate the User and provides them with a JWT token as a response
+
+
+
 ## User Related APIs
 
 ### `GET` `/users/@{username}`
