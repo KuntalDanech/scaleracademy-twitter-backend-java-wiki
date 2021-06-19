@@ -12,4 +12,4 @@ We use Lombok's simple annotations to get rid of boilerplate, but at the same ti
 - Data
 - NonNull
 
-## TODO: Lombok Configuration for Eclipse IDE
+## TODO: Lombok Configuration for various IDEs
