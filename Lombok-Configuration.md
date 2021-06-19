@@ -11,3 +11,5 @@ We use Lombok's simple annotations to get rid of boilerplate, but at the same ti
 - EqualsAndHashCode
 - Data
 - NonNull
+
+## TODO: Lombok Configuration for Eclipse
