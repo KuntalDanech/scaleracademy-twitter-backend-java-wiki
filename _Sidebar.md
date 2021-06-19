@@ -4,7 +4,7 @@
 
 [03. **Entity Design**](https://github.com/scaleracademy/twitter-backend/wiki/Entity-Design)
 
-04. **Technology Selection**
+[04. **Technology Selection**](https://github.com/scaleracademy/twitter-backend-java/wiki/Technology-selections)
 
 05. **Installation**
 
