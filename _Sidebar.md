@@ -32,7 +32,7 @@
 
 [17. **Team**](https://github.com/scaleracademy/twitter-backend-java/wiki/Team)
 
-18. **Known issues**
+[18. **Known issues**](https://github.com/scaleracademy/twitter-backend-java/wiki/Known-issues)
 
 19. **Getting help**
 
