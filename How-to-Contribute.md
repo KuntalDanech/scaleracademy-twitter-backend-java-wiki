@@ -21,7 +21,7 @@ We love your input! We want to make contributing to this project as easy and tra
 * Fork the repo and clone it on your machine.
     ```
     git clone https://github.com/<your-github-id>/twitter-backend.git
-    cd retail-banking
+    cd twitter-backend
     ```
 * Add an upstream link to the main branch in your cloned repo
     ```
