@@ -1,6 +1,6 @@
 ## Database Tables that are currently in use
 
-### `users`
+### `user`
 | column_name     | column_definition          |
 |-----------------|----------------------------|
 | id              | UUID                       |
@@ -15,7 +15,7 @@
 | created_at      | datetime                   |
 | updated_at      | datetime                   |
 
-### `posts`
+### `post`
 | column_name      | column_definition                  |
 |------------------|------------------------------------|
 | id               | UUID                               |
@@ -31,7 +31,7 @@
 | created_at       | datetime                           |
 | updated_at       | datetime                           |
 
-### `hashtags`
+### `hashtag`
 | column_name       | column_definition                        |
 |-------------------|------------------------------------------|
 | id                | UUID                                     |
@@ -40,7 +40,7 @@
 | created_at        | datetime                                 |
 | updated_at        | datetime                                 |
 
-### `likes`
+### `like`
 
 
 
