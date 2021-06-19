@@ -19,28 +19,28 @@ We love your input! We want to make contributing to this project as easy and tra
 > - If you make PR before being assigned, It will be labeled [`invalid`](https://github.com/scaleracademy/twitter-backend-java/pulls?q=is%3Aopen+is%3Apr+label%3Ainvalid) and closed without merging.
 
 * Fork the repo and clone it on your machine.
-    ```
+    ```bash
     git clone https://github.com/<your-github-id>/twitter-backend.git
     cd twitter-backend
     ```
 * Add an upstream link to the main branch in your cloned repo
-    ```
+    ```bash
     git remote add upstream https://github.com/scaleracademy/twitter-backend.git
     ```
 * Keep your cloned repo up to date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
-    ```
+    ```bash
     git pull upstream master
     ```
 * Create your feature branch
-    ```
+    ```bash
     git checkout -b <feature-name>
     ```
 * Commit all the changes
-    ```
+    ```bash
     git commit -am "Meaningful commit message"
     ```
 * Push the changes for review
-    ```
+    ```bash
     git push origin <branch-name>
     ```
 * Create a Pull Request from our repo on GitHub.
