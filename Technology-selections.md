@@ -1,5 +1,6 @@
 - The Project uses Java 11
 - We are using Spring Boot with Maven to build it
+- Our preferred choice of Database is MySQL or MariaDB, as they are very popular
 - Logging with SLF4J API and Logback implementation
 - Continuous integration is done using GitHub Actions, Circle CI is used for static analysis on Pull Requests
 - Lombok is used to reduce boilerplate, but the annotation set we use is limited
