@@ -27,4 +27,8 @@ A twitter-like social media site where
 - Add caching support using Redis
 - _( Feel free to add your own wishlist, the Wikis are publicly editable )_
 
+***
 
+Please note that these scopes are mainly meant to be a part of the user's perspective.
+
+We will be defining similar development scopes as you know of JIRA epics which will be collated issues.
