@@ -75,13 +75,13 @@
 ### `post_images`
 | column_name | column_definition |
 |-------------|-------------------|
-| post_id     | UUID              |
+| id          | UUID              |
 | images      | string(URL)       |
 
-### `post_hashtag`
-
-
 ### `post_mention`
+
+
+### `post_hashtag`
 
 
 
