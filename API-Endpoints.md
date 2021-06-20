@@ -68,5 +68,5 @@ Un-like the given post
 ### `GET` `/hashtags` 📃 
 Top hashtags (default top 10)
 
-### `GET` `/hashtag/{tag}/posts` 📃 
+### `GET` `/hashtag/{hashtag}/posts` 📃 
 All posts of this given hashtag
