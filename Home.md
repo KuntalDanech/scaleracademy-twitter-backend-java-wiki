@@ -5,8 +5,8 @@ Application is intended to be developed parallelly to [this](https://github.com/
 
 ## Summary
 A twitter-like social media site where
-- anyone can post 240-character texts.
-- people can reply, like, or reshare the posts.
+- Anyone can post 240-character texts.
+- People can reply, like, or reshare the posts.
 - Users can follow each other.
 - The home feed shows posts from users that they follow.
 - Users will be notified when someone likes their posts, replies, or reshares them and when someone follows them.
