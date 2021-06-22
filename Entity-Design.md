@@ -40,7 +40,7 @@
 | created_at        | datetime                                 |
 | updated_at        | datetime                                 |
 
-### `like`
+### `likes`
 | column_name | column_definition   |
 |-------------|---------------------|
 | id          | UUID                |
