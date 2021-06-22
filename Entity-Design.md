@@ -61,28 +61,37 @@
 ### `user_following`
 | column_name   | column_definition  |
 |---------------|--------------------|
-| id            | UUID               |
-| following_key | UUID - FK(user.id) |
+| id            | UUID - FK(user.id) |
+| following_key | UUID (user.id)     |
 | following     | datetime           |
 
 ### `user_follower`
 | column_name  | column_definition  |
 |--------------|--------------------|
-| id           | UUID               |
-| follower_key | UUID - FK(user.id) |
+| id           | UUID - FK(user.id) |
+| follower_key | UUID (user.id)     |
 | follower     | datetime           |
 
 ### `post_images`
-| column_name | column_definition |
-|-------------|-------------------|
-| id          | UUID              |
-| images      | string(URL)       |
+| column_name | column_definition  |
+|-------------|--------------------|
+| post_id     | UUID - FK(post.id) |
+| images_key  | string(URL)        |
+| images      | datetime           |
 
 ### `post_mention`
-
+| column_name  | column_definition  |
+|--------------|--------------------|
+| post_id      | UUID - FK(post.id) |
+| mentions_key | UUID (user.id)     |
+| mentions     | datetime           |
 
 ### `post_hashtag`
-
+| column_name  | column_definition  |
+|--------------|--------------------|
+| post_id      | UUID - FK(post.id) |
+| hashtags_key | UUID (hashtag.id)  |
+| hashtags     | datetime           |
 
 
 
