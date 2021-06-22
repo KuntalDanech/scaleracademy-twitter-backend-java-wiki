@@ -15,28 +15,28 @@ Authenticate the User and provides them with a JWT token as a response
 
 ## User Related APIs
 
-### `GET` `/user/@{username}`
+### `GET` `/users/@{username}`
 Get details of given user by username
 
-### `GET` `/user/{userid}`
+### `GET` `/users/{userid}`
 Get details of given user by userid
 
-### `POST` `/user`
+### `POST` `/users`
 Create a new user
 
-### `PATCH` `/user` 🔒 
+### `PATCH` `/users` 🔒 
 Update bio/name/image etc of an user
 
-### `PUT` `/user/{userid}/follow` 🔒 
+### `PUT` `/users/{userid}/follow` 🔒 
 Follow the given user
 
-### `DELETE` `/user/{userid}/follow` 🔒 
+### `DELETE` `/users/{userid}/follow` 🔒 
 Un-follow the given user
 
-### `GET` `/user/{userid}/followers` 📃 
+### `GET` `/users/{userid}/followers` 📃 
 Get a list of all followers of this user
 
-### `GET` `/user/{userid}/followings` 📃 
+### `GET` `/users/{userid}/followings` 📃 
 Get a list of all following of this user
 
 
@@ -46,19 +46,19 @@ Get a list of all following of this user
 ### `GET` `/posts` 📃 
 Get list of all posts
 
-### `GET` `/post/{postid}`
+### `GET` `/posts/{postid}`
 Get Details of a post
 
-### `POST` `/post` 🔒 
+### `POST` `/posts` 🔒 
 Create a new post
 
-### `DELETE` `/post/{postid}` 🔒 
+### `DELETE` `/posts/{postid}` 🔒 
 Delete a given post
 
-### `PUT` `/post/{postid}/like` 🔒 
+### `PUT` `/posts/{postid}/like` 🔒 
 Like the given post
 
-### `DELETE` `/post/{postid}/like` 🔒 
+### `DELETE` `/posts/{postid}/like` 🔒 
 Un-like the given post
 
 
@@ -68,5 +68,5 @@ Un-like the given post
 ### `GET` `/hashtags` 📃 
 Top hashtags (default top 10)
 
-### `GET` `/hashtag/{hashtag}/posts` 📃 
+### `GET` `/hashtags/{hashtag}/posts` 📃 
 All posts of this given hashtag
