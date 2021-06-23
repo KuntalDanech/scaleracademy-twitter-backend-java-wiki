@@ -59,39 +59,39 @@
 | updated_at     | datetime               |
 
 ### `users_following`
-| column_name      | column_definition   |
-|------------------|---------------------|
-| id 🔑            | UUID - FK(users.id) |
-| following_key 🔑 | UUID (users.id)     |
-| following        | datetime            |
+| column_name            | column_definition   |
+|------------------------|---------------------|
+| users_id 🔑            | UUID - FK(users.id) |
+| following_key 🔑       | UUID (users.id)     |
+| following              | datetime            |
 
 ### `users_follower`
-| column_name     | column_definition   |
-|-----------------|---------------------|
-| id 🔑           | UUID - FK(users.id) |
-| follower_key 🔑 | UUID (users.id)     |
-| follower        | datetime            |
+| column_name           | column_definition   |
+|-----------------------|---------------------|
+| users_id 🔑           | UUID - FK(users.id) |
+| follower_key 🔑       | UUID (users.id)     |
+| follower              | datetime            |
 
 ### `posts_images`
-| column_name    | column_definition   |
-|----------------|---------------------|
-| post_id 🔑     | UUID - FK(posts.id) |
-| images_key 🔑  | string(URL)         |
-| images         | datetime            |
+| column_name     | column_definition   |
+|-----------------|---------------------|
+| posts_id 🔑     | UUID - FK(posts.id) |
+| images_key 🔑   | string(URL)         |
+| images          | datetime            |
 
 ### `posts_mention`
-| column_name     | column_definition   |
-|-----------------|---------------------|
-| post_id 🔑      | UUID - FK(posts.id) |
-| mentions_key 🔑 | UUID (users.id)     |
-| mentions        | datetime            |
+| column_name      | column_definition   |
+|------------------|---------------------|
+| posts_id 🔑      | UUID - FK(posts.id) |
+| mentions_key 🔑  | UUID (users.id)     |
+| mentions         | datetime            |
 
 ### `posts_hashtag`
-| column_name     | column_definition   |
-|-----------------|---------------------|
-| post_id 🔑      | UUID - FK(posts.id) |
-| hashtags_key 🔑 | UUID (hashtags.id)  |
-| hashtags        | datetime            |
+| column_name      | column_definition   |
+|------------------|---------------------|
+| posts_id 🔑      | UUID - FK(posts.id) |
+| hashtags_key 🔑  | UUID (hashtags.id)  |
+| hashtags         | datetime            |
 
 
 
