@@ -18,6 +18,8 @@
 
 [10. **API Endpoints Overview**](https://github.com/scaleracademy/twitter-backend/wiki/API-Endpoints)
 
+&nbsp;&nbsp; [10.1 **Request and Response Models**](https://github.com/scaleracademy/twitter-backend-java/wiki/Request-and-Response-Models)
+
 11. **How to Test Endpoints**
 
 12. **Collaboration**
