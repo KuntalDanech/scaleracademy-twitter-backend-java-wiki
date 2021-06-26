@@ -1,5 +1,5 @@
 ### GitHub [Discussions](https://github.com/scaleracademy/twitter-backend-java/discussions)
-Start with a [new discussion](https://github.com/scaleracademy/twitter-backend-java/discussions/new) to get started
+Start with a [new discussion](https://github.com/scaleracademy/twitter-backend-java/discussions/new) to get yourself some help!
 
 
 ***
