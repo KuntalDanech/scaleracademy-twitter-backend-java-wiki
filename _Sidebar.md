@@ -36,7 +36,7 @@
 
 [18. **Known issues**](https://github.com/scaleracademy/twitter-backend-java/wiki/Known-issues)
 
-19. **Getting help**
+[19. **Getting help**](https://github.com/scaleracademy/twitter-backend-java/wiki/Getting-Help)
 
 20. **Getting involved**
 
