@@ -20,23 +20,23 @@
 ```json
 [
   {
-    "hashtags": [
-      "string"
-    ],
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "text": "string",
+    "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "images": [
       "string"
     ],
+    "repostCount": 0,
     "likeCount": 0,
+    "hashtags": [
+      "string"
+    ],
     "mentions": [
       "string"
     ],
     "originalPostId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "replyToId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "repostCount": 0,
-    "text": "string",
     "timestamp": "2021-06-26T19:32:31.744Z",
-    "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
   }
 ]
 ```
@@ -47,8 +47,8 @@
 [
   {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "recentPostCount": 0,
-    "tag": "string"
+    "tag": "string",
+    "recentPostCount": 0
   }
 ]
 ```
