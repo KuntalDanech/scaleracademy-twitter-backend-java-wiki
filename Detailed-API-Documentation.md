@@ -23,34 +23,42 @@ Authenticate the User and provides them with a JWT token as a response
 
 ### `GET` `/users/@{username}`
 #### Request
-```json
-{
-  "username": "username",
-  "password": "Password"
-}
+```bash
+curl -X GET "http://localhost:8082/users/%40first"
 ```
 
 ### Response
 ```json
 {
-  "jwt": "JSON.Web.Token"
+  "id": "30761418-70e6-46dc-8af5-17670e78f293",
+  "username": "first",
+  "name": "Nice Name",
+  "avatar": "URL://updated-picture.png",
+  "bio": "Updated Bio",
+  "followerCount": 0,
+  "followingCount": 0,
+  "verified": false
 }
 ```
 Get details of a given user by username
 
 ### `GET` `/users/{userid}`
 #### Request
-```json
-{
-  "username": "username",
-  "password": "Password"
-}
+```bash
+curl -X GET "http://localhost:8082/users/30761418-70e6-46dc-8af5-17670e78f293"
 ```
 
 ### Response
 ```json
 {
-  "jwt": "JSON.Web.Token"
+  "id": "30761418-70e6-46dc-8af5-17670e78f293",
+  "username": "first",
+  "name": "Nice Name",
+  "avatar": "URL://updated-picture.png",
+  "bio": "Updated Bio",
+  "followerCount": 0,
+  "followingCount": 0,
+  "verified": false
 }
 ```
 Get details of a given user by userid
@@ -59,15 +67,24 @@ Get details of a given user by userid
 #### Request
 ```json
 {
-  "username": "username",
-  "password": "Password"
+  "username": "first",
+  "name": "Nice Name",
+  "bio": "Bio of 240 characters",
+  "avatar": "URL://picture.png"
 }
 ```
 
 ### Response
 ```json
 {
-  "jwt": "JSON.Web.Token"
+  "id": "30761418-70e6-46dc-8af5-17670e78f293",
+  "username": "first",
+  "name": "Nice Name",
+  "avatar": "URL://picture.png",
+  "bio": "Bio of 240 characters",
+  "followerCount": 0,
+  "followingCount": 0,
+  "verified": false
 }
 ```
 Create a new user
@@ -76,15 +93,25 @@ Create a new user
 #### Request
 ```json
 {
-  "username": "username",
-  "password": "Password"
+  "id": "30761418-70e6-46dc-8af5-17670e78f293",
+  "username": "first",
+  "name": "Nice Name",
+  "avatar": "URL://updated-picture.png",
+  "bio": "Updated Bio"
 }
 ```
 
 ### Response
 ```json
 {
-  "jwt": "JSON.Web.Token"
+  "id": "30761418-70e6-46dc-8af5-17670e78f293",
+  "username": "first",
+  "name": "Nice Name",
+  "avatar": "URL://updated-picture.png",
+  "bio": "Updated Bio",
+  "followerCount": 0,
+  "followingCount": 0,
+  "verified": false
 }
 ```
 Update bio/name/image etc of an user
