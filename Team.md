@@ -1,6 +1,5 @@
 ## Active Maintainers
 - [@ohbus](https://github.com/ohbus)
-- [@championswimmer](https://github.com/championswimmer)
 
 
 
