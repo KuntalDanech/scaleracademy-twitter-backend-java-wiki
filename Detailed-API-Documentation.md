@@ -4,7 +4,7 @@
 #### Request
 ```json
 {
-  "username": "username"
+  "username": "username",
   "password": "Password"
 }
 ```
