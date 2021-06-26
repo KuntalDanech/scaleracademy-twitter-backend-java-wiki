@@ -20,6 +20,8 @@
 
 &nbsp;&nbsp; [10.1 **Request and Response Models**](https://github.com/scaleracademy/twitter-backend-java/wiki/Request-and-Response-Models)
 
+&nbsp;&nbsp; [10.2 **Detailed API Documentation**](https://github.com/scaleracademy/twitter-backend-java/wiki/Detailed-API-Documentation)
+
 11. **How to Test Endpoints**
 
 12. **Collaboration**
