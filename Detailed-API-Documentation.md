@@ -13,6 +13,7 @@
 ```json
 {
   "jwt": "JSON.Web.Token"
+}
 ```
 
 
