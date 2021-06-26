@@ -9,7 +9,7 @@
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -27,7 +27,7 @@ Authenticate the User and provides them with a JWT token as a response
 curl -X GET "http://localhost:8082/users/%40first"
 ```
 
-### Response
+#### Response
 ```json
 {
   "id": "30761418-70e6-46dc-8af5-17670e78f293",
@@ -48,7 +48,7 @@ Get details of a given user by username
 curl -X GET "http://localhost:8082/users/30761418-70e6-46dc-8af5-17670e78f293"
 ```
 
-### Response
+#### Response
 ```json
 {
   "id": "30761418-70e6-46dc-8af5-17670e78f293",
@@ -74,7 +74,7 @@ Get details of a given user by userid
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "id": "30761418-70e6-46dc-8af5-17670e78f293",
@@ -101,7 +101,7 @@ Create a new user
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "id": "30761418-70e6-46dc-8af5-17670e78f293",
@@ -125,7 +125,7 @@ Update bio/name/image etc of an user
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -142,7 +142,7 @@ Follow the given user
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -159,7 +159,7 @@ Un-follow the given user
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -176,7 +176,7 @@ Get a list of all followers of this user
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -198,7 +198,7 @@ Get a list of all following of this user
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -215,7 +215,7 @@ Get the list of all posts
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -232,7 +232,7 @@ Get Details of a post
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -249,7 +249,7 @@ Create a new post
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -266,7 +266,7 @@ Delete a given post
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -283,7 +283,7 @@ Like the given post
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -304,7 +304,7 @@ Un-like the given post
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
@@ -321,7 +321,7 @@ Top hashtags (default top 10)
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "jwt": "JSON.Web.Token"
