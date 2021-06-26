@@ -9,6 +9,7 @@ We use Lombok's simple annotations to get rid of boilerplate, but at the same ti
 - Slf4j
 - ToString
 - EqualsAndHashCode
+- Value
 - Data
 - NonNull
 
