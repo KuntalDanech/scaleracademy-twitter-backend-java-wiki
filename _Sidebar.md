@@ -38,7 +38,5 @@
 
 [19. **Getting help**](https://github.com/scaleracademy/twitter-backend-java/wiki/Getting-Help)
 
-20. **Getting involved**
-
-21. **Recognizing contributors**
+20. **Recognizing contributors**
 
