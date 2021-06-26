@@ -13,4 +13,4 @@ Or Reachout to the [active maintainers](https://github.com/ohbus) from [here](ht
 
 
 ### Reach out to [Scaler Discord](https://discord.gg/8x9vUbMCJb) Server
-Head over to the [`#talk-open-source`](https://discord.gg/8x9vUbMCJb) discord channel and `@Subhrodip` to ping him
+Head over to the [`#talk-open-source`](https://discord.gg/8x9vUbMCJb) discord channel and [`@Subhrodip`](https://discordapp.com/users/386265152301039616) to ping him
