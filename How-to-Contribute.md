@@ -16,7 +16,7 @@ We love your input! We want to make contributing to this project as easy and tra
 ### Making a Pull Request
 
 > - Make sure you have been assigned the issue to which you are making a PR.
-> - If you make PR before being assigned, It will be labeled [`invalid`](https://github.com/scaleracademy/twitter-backend-java/pulls?q=is%3Aopen+is%3Apr+label%3Ainvalid) and closed without merging.
+> - If you make PR before being assigned, It will be labelled [`invalid`](https://github.com/scaleracademy/twitter-backend-java/pulls?q=is%3Aopen+is%3Apr+label%3Ainvalid) and closed without merging.
 
 * Fork the repo and clone it on your machine.
     ```bash
@@ -45,13 +45,13 @@ We love your input! We want to make contributing to this project as easy and tra
     ```
 * Create a Pull Request from our repo on GitHub.
 
-## Setting up the development Enviornment using [Eclipse (Java EE)](https://www.eclipse.org/downloads/packages/release/2020-09/r/eclipse-ide-enterprise-java-developers) or [STS](https://spring.io/tools)
+## Setting up the Development Enviornment using [Eclipse (Java EE)](https://www.eclipse.org/downloads/packages/release/2020-09/r/eclipse-ide-enterprise-java-developers) or [STS](https://spring.io/tools)
 
 > - You can always use your favourite IDE like [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [VS Code](https://code.visualstudio.com/)
-> - Please check that the [JAVA_HOME](https://docs.oracle.com/cd/E19182-01/821-0917/inst_jdk_javahome_t/index.html) enviornment variable is setup using [JDK 11](https://adoptopenjdk.net/) to ensure optimal results.
+> - Please check that the [JAVA_HOME](https://docs.oracle.com/cd/E19182-01/821-0917/inst_jdk_javahome_t/index.html) environment variable is set up using [JDK 11](https://adoptopenjdk.net/) to ensure optimal results.
 - Import the project into your Workspace as an **Existing Maven Project.**
 - Go to the file called [application-dev.properties](https://github.com/scaleracademy/twitter-backend/blob/master/src/main/resources/application-dev.properties) under [`src/main/resources`](https://github.com/scaleracademy/twitter-backend/blob/master/src/main/resources)
-- Here you will find four environment variable namely
+- Here you will find four environment variables namely
     - **`MYSQL_DB_HOST`** and **`MYSQL_DB_PORT`** at [Line 37](https://github.com/scaleracademy/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L37)
     - **`MYSQL_DB_UNAME`** and **`MYSQL_DB_PASSWD`** at [Line 40](https://github.com/scaleracademy/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L40) and [41](https://github.com/scaleracademy/twitter-backend/blob/fb2f7c56184ef4e56e599602905708e933bd30a1/src/main/resources/application-dev.properties#L41) respectively.
     - You can either set these environment variables under your Maven Build and SpringBoot run OR
@@ -73,7 +73,7 @@ We love your input! We want to make contributing to this project as easy and tra
 
 * Code should be properly commented to ensure its readability.
 * If you've added code that should be tested, add tests with JUnit.
-* Make sure your code properly formatted.
+* Make sure your code is properly formatted.
 * Issue that pull request!
 * Your code should pass the automated CI pipeline Tests before making it into the codebase.
 * Use Maven Wrapper for Java Code code `mvnw clean verify` for Windows and `./mvnw clean verify` for UNIX-based systems.

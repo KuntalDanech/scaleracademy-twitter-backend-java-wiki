@@ -6,7 +6,7 @@ Start with a [new discussion](https://github.com/scaleracademy/twitter-backend-j
 
 
 ### Contact [@ohbus](https://subho.xyz/site/en/contact.html)
-Or Reachout to the [active maintainers](https://github.com/ohbus) from [here](https://github.com/scaleracademy/twitter-backend-java/wiki/Team)
+Or Reach out to the [active maintainers](https://github.com/ohbus) from [here](https://github.com/scaleracademy/twitter-backend-java/wiki/Team)
 
 
 ***
