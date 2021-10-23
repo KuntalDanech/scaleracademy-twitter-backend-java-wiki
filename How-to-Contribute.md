@@ -45,7 +45,7 @@ We love your input! We want to make contributing to this project as easy and tra
     ```
 * Create a Pull Request from our repo on GitHub.
 
-## Setting up the Development Enviornment using [Eclipse (Java EE)](https://www.eclipse.org/downloads/packages/release/2020-09/r/eclipse-ide-enterprise-java-developers) or [STS](https://spring.io/tools)
+## Setting up the Development Environment using [Eclipse (Java EE)](https://www.eclipse.org/downloads/packages/release/2020-09/r/eclipse-ide-enterprise-java-developers) or [STS](https://spring.io/tools)
 
 > - You can always use your favourite IDE like [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [VS Code](https://code.visualstudio.com/)
 > - Please check that the [JAVA_HOME](https://docs.oracle.com/cd/E19182-01/821-0917/inst_jdk_javahome_t/index.html) environment variable is set up using [JDK 11](https://adoptopenjdk.net/) to ensure optimal results.
@@ -60,6 +60,7 @@ We love your input! We want to make contributing to this project as easy and tra
         - `MYSQL_DB_PORT` will be the **port** at which your database server resides. Like `3306`
         - `MYSQL_DB_UNAME` will be the **username** for your database. Like `root`
         - `MYSQL_DB_PASSWD` will be the **password** for accessing the database. Like `root123`
+	- For exceptional cases If MySQL or MariaDB has a lower version then for MySQL we can set `mysql-connector-java` artifactId version as required and we can set JDBC driver (e.g `spring.datasource.driver-class-name`) as required in `application.properties`.
 - After this right-click on the project and select Run As **Maven Build**
 - Under **goals** write **`clean verify`** and Run the Build. _This produces an executable JAR under the `target` folder_
 - After a Successful Build. Run the application by Right-Clicking on the project and clicking on Run as *Spring Boot App*
